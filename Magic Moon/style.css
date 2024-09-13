@@ -1,0 +1,162 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Karma', serif;
+    background: linear-gradient(to bottom, #000000 0%, #540375 100%);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Sunflower', sans-serif;
+}
+
+h3 {
+    font-family: 'Almendra', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    box-sizing: border-box    
+    
+ }
+
+/* Estilos del menú */
+nav {
+    background-color: none;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul li {
+    font-family: 'Almendra', serif;
+}
+
+nav ul li a as {
+
+    font-family: 'Sunflower', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFBF00;
+}
+
+/* bloque logo */
+
+div img {
+    width: 250px;
+    height: 250px;
+   
+}
+
+.Logo {
+   text-align: center;
+    padding: 10px;
+}
+
+/* Catalogo */
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 20px;
+}
+
+.catalog-item {
+    background-color: #10A19D;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Noticias */
+.noticias {
+    padding: 20px;
+}
+
+.noticias h2 {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.noticias article {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.noticias article img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+.noticias article h3 {
+    font-family: 'Almendra', serif;
+    font-size: 24px;
+    color: #FFBF00;
+    margin-bottom: 5px;
+}
+
+.noticias article p {
+    font-family: 'Karma', serif;
+    color: #fff;
+}
+
+/* Contacto */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FF7000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
